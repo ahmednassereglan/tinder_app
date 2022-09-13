@@ -11,19 +11,19 @@ function SwipeButtons() {
 
     <SwipeContainer>
         <IconButton>
-            <CustomReplayIcon />
+            <CustomReplayIcon fontSize='large' />
         </IconButton>
         <IconButton>
-            <CustomCloseIcon />
+            <CustomCloseIcon fontSize='large' />
         </IconButton>
         <IconButton>
-            <CustomStarRateIcon />
+            <CustomStarRateIcon fontSize='large' />
         </IconButton>
         <IconButton>
-            <CustomFavoriteIcon />
+            <CustomFavoriteIcon fontSize='large' />
         </IconButton>
         <IconButton>
-            <CustomFlashOnIcon />
+            <CustomFlashOnIcon fontSize='large' />
         </IconButton>
     </SwipeContainer>
   )
@@ -43,46 +43,27 @@ const SwipeContainer = styled.div`
 const CustomReplayIcon = styled(ReplayIcon)`
   background-color: #fff;
   box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important ;
-  padding: 1.2vw;
+  padding: 2vw;
   border-radius: 50%;
-  font-size: 25px !important;
-  color: #f5b748 !important;
-
 `;
 
 const CustomCloseIcon = styled(CloseIcon)`
-  background-color: #fff;
-  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important ;
-  padding: 1.2vw;
-  border-radius: 50%;
-  font-size: 25px !important;
-  color: #ec5e6f !important;
+background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) ;
 `;
 
 const CustomStarRateIcon = styled(StarRateIcon)`
-  background-color: #fff;
-  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important ;
-  padding: 1.2vw;
-  border-radius: 50%;
-  font-size: 25px !important;
-  color: #62b4f9 !important;
+background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) ;
 `;
 
 const CustomFavoriteIcon = styled(FavoriteIcon)`
-  background-color: #fff;
-  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important ;
-  padding: 1.2vw;
-  border-radius: 50%;
-  font-size: 25px !important;
-  color: #76e2b3 !important;
+background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) ;
 `;
 
 const CustomFlashOnIcon = styled(FlashOnIcon)`
-  background-color: #fff;
-  box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important ;
-  padding: 1.2vw;
-  border-radius: 50%;
-  font-size: 25px !important;
-  color: #915dd1 !important;
+background-color: #fff;
+box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) ;
 `;
 

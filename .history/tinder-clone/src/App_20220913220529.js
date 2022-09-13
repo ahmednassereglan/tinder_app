@@ -16,12 +16,12 @@ function App() {
     
   }, []);
 
-  // console.log(cards);
+  console.log(cards);
 
   return (
     <div className="">
       <Header />
-      <Cards cards={cards} />
+      <Cards />
       <SwipeButtons />
     </div>
   );

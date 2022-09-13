@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="">
       <Header />
-      <Cards cards={cards} />
+      <Cards />
       <SwipeButtons />
     </div>
   );

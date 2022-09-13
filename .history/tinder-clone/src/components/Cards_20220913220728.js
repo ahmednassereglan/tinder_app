@@ -35,7 +35,7 @@ const swiped = (direction,nameToDelete) => {
             onSwipe={(dir) => swiped(dir,character.name)}
             onCardLeftScreen={() => outOfFrame(character.name)}
             >
-             <DivCard bgImg={character.imgUrl}>
+             <DivCard bgImg={character.url}>
                 <h3>{character.name}</h3>
              </DivCard>
             </CustomTinderCard>
